@@ -48,3 +48,6 @@ git log --since=2.weeks - лог коммитов за последние две
 
 git log -p -2 - отображает изменения в двух последних коммитах
 
+git commit - без ключей запускает редактор комментариев в редакторе (вим)
+
+git config --global core.editor "'C:\Program Files (x86)\Notepad++\notepad++.exe' -multiInst -notabbar -nosession -noPlugin"﻿ - использование стороннего редактора для комментариев
