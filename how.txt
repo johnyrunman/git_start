@@ -51,3 +51,13 @@ git log -p -2 - отображает изменения в двух послед
 git commit - без ключей запускает редактор комментариев в редакторе (вим)
 
 git config --global core.editor "'C:\Program Files (x86)\Notepad++\notepad++.exe' -multiInst -notabbar -nosession -noPlugin"﻿ - использование стороннего редактора для комментариев
+
+git checkout -b new_f - создание новой ветки с именем new_f и автоматический переход в нее
+
+git branch - оторажение веток
+
+git branch -v -отображение веток с последними коммитами
+
+git branch new_f2 - создание новой ветки без перехода в нее
+
+git checkout new_f2 - переключение на ветку ф2
